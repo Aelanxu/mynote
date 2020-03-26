@@ -1,4 +1,4 @@
-ubuntu的git 仓库搭
+# ubuntu的git 仓库搭
 
 1、首先是安装
 
