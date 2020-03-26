@@ -1,4 +1,4 @@
-# ubuntu的git 仓库搭
+# ubuntu的git 仓库搭建
 
 1、首先是安装
 

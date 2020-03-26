@@ -1,13 +1,15 @@
 # git问题处理
-1. 项目一不小心坏掉了，如何处理
+1.  项目一不小心坏掉了，如何处理
 ```shell
 git reflog
 ```
-2. 列出你在git上所有记录的索引，你只要找到HEAD@{index}前面所有对应的操作索引，并使用下面命令即可
+​	列出你在git上所有记录的索引，你只要找到HEAD@{index}前面所有对应的操作索引，并使用下面命令即可
+
 ```shell
 git reset HEAD@{index}
 ```
-3. 想改个小东西，但代码不小心提交了(commit)了
+2. 想改个小东西，但代码不小心提交了(commit)了
+
 ```shell
 git add .
 ```
@@ -15,11 +17,12 @@ git add .
 ```shell
 git commit --amend
 ```
-4. 刚刚历史写的不够好需要重新写
+3. 刚刚历史写的不够好需要重新写
+
 ```shell
 git commit --amend
 ```
-8. 我刚刚不小心把新分支的代码提交到主分支上了！ 我们一步步来，你先创建个新分支（some-new-branch-name）：
+4. 我刚刚不小心把新分支的代码提交到主分支上了！ 我们一步步来，你先创建个新分支（some-new-branch-name）：
 
 ```shell
 git branch some-new-branch-name
@@ -40,7 +43,7 @@ git checkout some-new-branch-name
 ​	如果你已经把代码提交到远程仓库上，
 ​	那就得跟队友商量下解决方案了。
 
-9. 完蛋了，我把代码提交到错误的分支上了 //我们先撤销最后一次提交，但保留变更代码：
+5. 完蛋了，我把代码提交到错误的分支上了 //我们先撤销最后一次提交，但保留变更代码：
 
 
 ```shell
