@@ -1,4 +1,7 @@
+
+
 ## node的安装和升级操作事项
+
 1. 查看当前node的版本号
 ```shell
 node --version
